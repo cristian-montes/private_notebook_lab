@@ -11,7 +11,7 @@ export default function Header() {
     <>
       <header className={styles.header}>
         <Link to="/">
-          <h1>My Notes</h1>
+          <h1>My Notes ---- I WILL HAVE IT DONE BY THE END OF THE WEEK!</h1>
         </Link>
         <p className={styles.signInStatus}>
           {user?.email ? `Signed in as ${user?.email}` : 'Not Signed In'}
